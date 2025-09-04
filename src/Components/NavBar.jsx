@@ -1,12 +1,14 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+{/* <script type="text/javascript" src="js/bootstrap.min.js"></script> */}
 import { NavLink, Outlet } from 'react-router-dom';
 const NavBar = () => {
+
     return (
         <>
        <nav className="navbar navbar-expand-lg bg-gray">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="#">InfoPk </NavLink>
+    <NavLink className="navbar-brand" to="/">InfoPk </NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -61,8 +63,6 @@ const NavBar = () => {
   </div>
 </nav>   
 <Outlet/>
-
-
 
         </>
     )

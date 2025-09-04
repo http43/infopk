@@ -8,7 +8,8 @@ import BISE from './Components/BISE';
 import IUB from './Components/IUB';
 import LatestJobs from './Components/LatestJobs';
 import OnlineEarning from './Components/OnlineEarning';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const App = () => {
   return (
     <>
