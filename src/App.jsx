@@ -2,18 +2,28 @@ import React from 'react'
 import NavBar from './Components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import AIOU from './Components/AIOU';
+import BISE from './Components/BISE';
+import IUB from './Components/IUB';
+import LatestJobs from './Components/LatestJobs';
+import OnlineEarning from './Components/OnlineEarning';
 
 const App = () => {
   return (
     <>
    <BrowserRouter>
      <NavBar />
+     <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/aiou' element={<AIOU/>} />
+      <Route path='/bise' element={<BISE/>} />
+      <Route path='/iub' element={<IUB/>} />
+      <Route path='/jobs' element={<LatestJobs/>} />
+      <Route path='/online' element={<OnlineEarning/>} />
+     </Routes>
    </BrowserRouter>
-     
-   
-   
-      <Home />
+
     </>
   )
 }
