@@ -4,10 +4,13 @@ import Home from './Components/Home'
 
 const App = () => {
   return (
-    <div>
-      <NavBar />
+    <>
+    <BrowserRouter>
+       <NavBar />
+    </BrowserRouter>
+   
       <Home />
-    </div>
+    </>
   )
 }
 
