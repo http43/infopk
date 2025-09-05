@@ -10,6 +10,8 @@ import LatestJobs from './Components/LatestJobs';
 import OnlineEarning from './Components/OnlineEarning';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import '../src/App.css'
+import Other from './Components/Other';
 const App = () => {
   return (
     <>
@@ -22,6 +24,7 @@ const App = () => {
       <Route path='/iub' element={<IUB/>} />
       <Route path='/jobs' element={<LatestJobs/>} />
       <Route path='/online' element={<OnlineEarning/>} />
+      <Route path='/other' element={<Other/>} />
      </Routes>
    </BrowserRouter>
 

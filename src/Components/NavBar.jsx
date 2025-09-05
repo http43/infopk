@@ -1,4 +1,5 @@
 import React from 'react'
+import './NavBar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 {/* <script type="text/javascript" src="js/bootstrap.min.js"></script> */}
 import { NavLink, Outlet } from 'react-router-dom';
@@ -19,7 +20,9 @@ const NavBar = () => {
         </li>
         {/* <li className="nav-item"> <NavLink className="nav-link" to="/aiou">AIOU </NavLink></li> */}
          <li className="nav-item dropdown">
-          <NavLink className="nav-link dropdown-toggle" to="aiou" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <NavLink className="nav-link dropdown-toggle" to="aiou" role="button" 
+          // data-bs-toggle="dropdown" aria-expanded="false"
+          >
             AIOU 
           </NavLink>
           <ul className="dropdown-menu">
@@ -28,16 +31,20 @@ const NavBar = () => {
             <li><NavLink className="dropdown-item" to="aiou-result">AIOU Result </NavLink></li>
           </ul>
         </li>
-         <li className="nav-item dropdown">
-          <NavLink className="nav-link dropdown-toggle" to="/bise" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            BISE  
-          </NavLink>
-          <ul className="dropdown-menu">
-            <li><NavLink className="dropdown-item" to="bise-admission">BISE Admission </NavLink></li>
-            <li><NavLink className="dropdown-item" to="bise-registration">BISE Registration  </NavLink></li>
-            <li><NavLink className="dropdown-item" to="bise-result">BISE Result </NavLink></li>
-          </ul>
-        </li>
+      
+
+
+<li className="nav-item dropdown">  
+  <NavLink     className="nav-link dropdown-toggle"     to="/bise"    role="button"
+  >    BISE  </NavLink>
+
+  <ul className="dropdown-menu">
+    <li><NavLink className="dropdown-item" to="/bise-admission">BISE Admission</NavLink></li>
+    <li><NavLink className="dropdown-item" to="/bise-registration">BISE Registration</NavLink></li>
+    <li><NavLink className="dropdown-item" to="/bise-result">BISE Result</NavLink></li>
+  </ul>
+</li>
+        
         {/* <li className="nav-item">          <NavLink className="nav-link" to="/bise">BISE </NavLink>        </li> */}
         <li className="nav-item">
           <NavLink className="nav-link" to="/iub">IUB </NavLink>
@@ -49,8 +56,10 @@ const NavBar = () => {
           <NavLink className="nav-link" to="/online">Online Earning </NavLink>
         </li>
         <li className="nav-item dropdown">
-          <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+          <NavLink className="nav-link dropdown-toggle" to="/other" role="button" 
+          // data-bs-toggle="dropdown" aria-expanded="false"
+          >
+            Other 
           </NavLink>
           <ul className="dropdown-menu">
             <li><NavLink className="dropdown-item" to="#">Action</NavLink></li>
