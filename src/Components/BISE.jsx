@@ -2,7 +2,7 @@ import React from 'react'
 
 const BISE = () => {
   return (
-    <div>BISE</div>
+    <div className='bise'>BISE</div>
   )
 }
 

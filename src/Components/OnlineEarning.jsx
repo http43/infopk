@@ -2,7 +2,7 @@ import React from 'react'
 
 const OnlineEarning = () => {
   return (
-    <div>OnlineEarning</div>
+    <div className='online-earning'>OnlineEarning</div>
   )
 }
 

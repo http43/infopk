@@ -2,7 +2,7 @@ import React from 'react'
 
 const AIOU = () => {
   return (
-    <div>AIOU</div>
+    <div className='aiou'>AIOU</div>
   )
 }
 

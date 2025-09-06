@@ -2,7 +2,7 @@ import React from 'react'
 
 const LatestJobs = () => {
   return (
-    <div>LatestJobs</div>
+    <div className='latest-job'>LatestJobs</div>
   )
 }
 

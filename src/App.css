@@ -1,0 +1,12 @@
+.about,
+.aiou,
+.bise,
+.contact-us,
+.latest-job,
+.online-earning,
+.other {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
