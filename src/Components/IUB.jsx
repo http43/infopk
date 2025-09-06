@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './IUB.css'
 const IUB = () => {
   return (
-    <div>IUB</div>
+    <div className='iub'><h1>IUB</h1></div>
   )
 }
 

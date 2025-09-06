@@ -4,13 +4,13 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
---dblue: #1D4669;
---lblue: #427D9D;
---white:#FFFFFF;
+  --dblue: #1D4669;
+  --lblue: #427D9D;
+  --white: #FFFFFF;
   color-scheme: light dark;
   color: var(--dblue);
   background-color: var(--white);
-
+  font-size: 18px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

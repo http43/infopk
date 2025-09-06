@@ -3,7 +3,7 @@ import './Home.css'
 import HomeBoxes from './HomeBoxes'
 const Home = () => {
     return (
-        <div className='hero-container'>
+        <div>
             <div className="hero">
 
                 <div className="hero-text">
@@ -12,10 +12,6 @@ const Home = () => {
                     <button className='btn-primary' id='search'>Search </button>
                 </div>
             </div>
-            <HomeBoxes />
-
-
-
         </div>
     )
 }

@@ -1,4 +1,8 @@
 /* Show dropdown on hover */
+.navbar {
+  height: 10vh;
+}
+
 .nav-item.dropdown:hover>.dropdown-menu {
   display: inline-block;
 }
