@@ -1,12 +1,25 @@
 /* Show dropdown on hover */
-.nav-item.dropdown:hover .dropdown-menu {
+.nav-item.dropdown:hover>.dropdown-menu {
+  display: inline-block;
+}
+
+.submenus:hover .subli {
   display: block;
+  position: absolute;
+  top: 0;
+  margin: 0px 0 0 150px;
 }
 
 /* Keep proper positioning */
 .nav-item.dropdown .dropdown-menu {
   margin-top: 0;
 }
-.nav-item.active{
-  color: var(--lblue);
+
+.bg-custom {
+  background-color: var(--lblue);
+}
+
+.navbar-nav {
+  margin-left: 20%;
+  gap: 15px;
 }
