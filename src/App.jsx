@@ -15,18 +15,18 @@ import Other from './Components/Other';
 const App = () => {
   return (
     <>
-   <BrowserRouter>
-     <NavBar />
-     <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/aiou' element={<AIOU/>} />
-      <Route path='/bise' element={<BISE/>} />
-      <Route path='/iub' element={<IUB/>} />
-      <Route path='/jobs' element={<LatestJobs/>} />
-      <Route path='/online' element={<OnlineEarning/>} />
-      <Route path='/other' element={<Other/>} />
-     </Routes>
-   </BrowserRouter>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/aiou' element={<AIOU />} />
+          <Route path='/bise' element={<BISE />} />
+          <Route path='/iub' element={<IUB />} />
+          <Route path='/jobs' element={<LatestJobs />} />
+          <Route path='/online' element={<OnlineEarning />} />
+          <Route path='/other' element={<Other />} />
+        </Routes>
+      </BrowserRouter>
 
     </>
   )

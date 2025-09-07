@@ -1,9 +1,10 @@
 import React from 'react'
 import './Home.css'
-import HomeBoxes from './HomeBoxes'
+import HomeBoxes from './boxes/HomeBoxes'
+import ArchivePost from './ArchivePost'
 const Home = () => {
     return (
-        <div>
+        <>
             <div className="hero">
 
                 <div className="hero-text">
@@ -12,7 +13,9 @@ const Home = () => {
                     <button className='btn-primary' id='search'>Search </button>
                 </div>
             </div>
-        </div>
+            <HomeBoxes />
+            <ArchivePost />
+        </>
     )
 }
 

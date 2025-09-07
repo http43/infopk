@@ -77,6 +77,10 @@ const NavBar = () => {
                   <li><NavLink className="dropdown-item text-white" to="/bise-result">BISE Result</NavLink></li>
                 </ul>
               </li>
+              <li className="nav-item">
+                <button className="nav-link text-blue text-2xl" to="/online">Login </button>
+              </li>
+
             </ul>
           </div>
         </div>
