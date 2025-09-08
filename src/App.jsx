@@ -12,6 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import '../src/App.css'
 import Other from './Components/Other';
+import Footer from './Components/Footer';
 const App = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/online' element={<OnlineEarning />} />
           <Route path='/other' element={<Other />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
 
     </>

@@ -78,7 +78,7 @@ const NavBar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <button className="nav-link text-blue text-2xl" to="/online">Login </button>
+                <button className="nav-link text-blue text-2xl bg-cusom text-white" data-bs-toggle="tooltip"><i className='text-red:hover'>Login</i> </button>
               </li>
 
             </ul>

@@ -1,6 +1,6 @@
 /* Show dropdown on hover */
 .navbar {
-  height: 10vh;
+  height: 6vh;
   font-weight: 600;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .bg-custom {
-  background-color: var(--lblue);
+  background-color: var(--dblue);
 }
 
 .navbar-nav {
